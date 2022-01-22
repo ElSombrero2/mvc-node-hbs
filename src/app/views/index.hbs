@@ -1,0 +1,10 @@
+{{> header}}
+<div>
+    <h1>Contenue</h1>
+    <ul>
+        {{#each users}}
+        <li>{{this._id}}.{{this.name}} {{this.lastname}}</li>
+        {{/each}}
+    </ul>
+</div>
+{{> footer}}
